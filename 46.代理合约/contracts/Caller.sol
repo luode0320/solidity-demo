@@ -10,6 +10,7 @@ import "hardhat/console.sol";
 contract Caller {
     address public proxy; // 代理合约地址
     event CallSuccess(uint increase);
+    event Dynamic(bytes increase);
 
     constructor(address proxy_) {
         proxy = proxy_;

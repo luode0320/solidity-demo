@@ -35,7 +35,6 @@ contract Selector {
     }
 
     // 输出selector
-    // "mint(address)"： 0x6a627842
     function testSelector(
         string memory test
     ) external pure returns (bytes4 mSelector) {
